@@ -1,3 +1,5 @@
+پرامتی برای تولید پرامت دیگر؛ مثلاً از مدل بخواهید پرامتی طراحی کند که یک دستیار کدنویسی را برای بهینه‌سازی اسکریپت راهنمایی کند
+
 Act as a senior AI prompt engineer.
 
 Create a prompt for an AI coding assistant to review and optimize a Python script that processes CSV files.

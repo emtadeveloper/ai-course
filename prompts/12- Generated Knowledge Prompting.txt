@@ -1,3 +1,5 @@
+ابتدا از مدل می‌خواهیم دانش مرتبط با موضوع را تولید کند، سپس با استفاده از آن دانش، کد موجود را بررسی و بهبود دهد
+
 You are helping optimize a Node.js REST API.
 
 First, generate 5–7 pieces of relevant knowledge about common causes of performance bottlenecks in Node.js APIs, including asynchronous patterns, database access, event loop behavior, and caching strategies.

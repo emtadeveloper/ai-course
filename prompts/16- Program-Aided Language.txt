@@ -1,3 +1,5 @@
+از مدل می‌خواهد فقط کد قابل‌اجرای پایتون تولید کند تا یک مسئله‌ی ریاضی/الگوریتمی را حل نماید (بدون توضیح اضافی)
+
 Write a Python program to solve this problem:
 
 Generate Fibonacci numbers up to N = 50.

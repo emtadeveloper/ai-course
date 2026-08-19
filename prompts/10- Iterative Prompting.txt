@@ -1,3 +1,5 @@
+پرامت در چند مرحله ارائه می‌شود: ابتدا تحلیل، سپس بازنویسی، سپس افزودن مستندات و تست – هر مرحله بر اساس خروجی مرحله‌ی قبل
+
 # Prompt 1
 Review the following JavaScript function and identify maintainability issues. Explain the problems but do not rewrite the code yet.
 

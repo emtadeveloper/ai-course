@@ -1,3 +1,4 @@
+تمرکز مدل را روی جنبه‌ی خاصی معطوف می‌کند (مثلاً بررسی موارد مرزی و خطاهای احتمالی) و از تغییرات کلی پرهیز می‌کند
 You are a senior JavaScript engineer.
 
 Review the following function and:

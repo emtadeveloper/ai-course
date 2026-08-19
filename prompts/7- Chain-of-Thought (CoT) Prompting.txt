@@ -1,3 +1,5 @@
+از مدل می‌خواهد قدم‌به‌قدم فرایند فکری خود را بیان کند، موارد مرزی را بررسی و سپس جواب نهایی را اصلاح کند
+
 You are a JavaScript expert.
 Explain step-by-step how you would debug the following function.
 Think through possible edge cases before giving the final corrected version.

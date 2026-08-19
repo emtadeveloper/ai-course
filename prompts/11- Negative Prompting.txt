@@ -1,3 +1,5 @@
+علاوه بر خواسته‌ها، به‌صراحت بیان می‌کند که چه کارهایی نباید انجام شود (مثلاً استفاده از کتابخانه‌های غیراستاندارد، نادیده‌گرفتن استثناها)
+
 Write a Python function that calculates total monthly sales from a CSV file.
 
 Requirements:

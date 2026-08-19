@@ -1,3 +1,5 @@
+از مدل می‌خواهیم چند راه‌حل مستقل برای یک مسئله تولید کند، آن‌ها را مقایسه کرده و قوی‌ترین گزینه را با دلیل انتخاب نماید
+
 You are a senior JavaScript engineer.
 
 Solve the following problem using self-consistency:

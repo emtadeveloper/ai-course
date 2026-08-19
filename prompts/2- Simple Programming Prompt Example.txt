@@ -1,3 +1,5 @@
+درخواست نوشتن یک تابع مشخص با رعایت سادگی، توضیح و مدیریت خطا؛ خروجی شامل کد، توضیح و مثال است
+
 Act as a Python developer.
 
 Your task is to write a Python function that checks whether a number is even or odd.

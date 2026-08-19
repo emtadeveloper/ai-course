@@ -1,3 +1,5 @@
+درخواست انجام کاری بدون ارائه مثال؛ مدل باید از دانش خود استفاده کند 
+
 Refactor the following JavaScript function to use async/await.
 Requirements:
 - Preserve the existing behavior.
