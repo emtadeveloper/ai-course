@@ -1,4 +1,80 @@
-از مدل می‌خواهد فقط کد قابل‌اجرای پایتون تولید کند تا یک مسئله‌ی ریاضی/الگوریتمی را حل نماید (بدون توضیح اضافی)
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+Program - Aided Lanquage ( PAL ) prompting is a technique where a Lanquage model is  instructed to write executable code a Program to solve part or all of a Program instead of
+directly producing the final answer
+
+the generated problem is then executed bt an external interpreter (e.g python runtime )
+and the output is used as the final  result 
+if exists to improve accuracy in  multi-step reasoning tasks especially artihemetc symbolic  reasoning and structured logic problems 
+Unlike chain of thought prompting which relies on natural Lanquage reasoning PAL offloads computation to formal code execution reducing  errors
+it is closely related to tool-use  approached  where llms delegate computation to external systems ( e.g calculators code interpreter )
+
+advantage 
+
+improve accuracy in artihemetc and algorithms tasks reduces reasoning hallucinations by useing execution works well with structured data ( arrays JSON , logs )
+integerates naturally with developer workflows
+
+Limitations
+
+requires a safe and available execution enviremont . not suitable for non-programable tasks (e.g  open-ended writing )
+Depends on correct code generation (syntax errors still possible )
+Security risks if executing untrusted code  not always faster to execution overhead
+
+Common use 
+
+data transformation and analysis
+algorithms problem solveing
+financial or  numerical computation
+parsing structured logs or datasets
+automated test generation
+
+
+=======================================================================================================================================================
+
+(Program-Aided Language – PAL) پرامت‌نویسی با کمک برنامه  : 
+
+تکنیکی است که در آن به مدل زبانی دستور داده می‌شود به‌جای اینکه مستقیماً پاسخ نهایی را تولید کند، کد قابل‌اجرا (یک برنامه) بنویسد تا بخشی یا تمام مسئله را حل کند
+
+برنامه‌ی تولیدشده سپس توسط یک مفسر خارجی ( مثلاً اجراکننده‌ی پایتون ) اجرا می‌شود و خروجی آن به‌عنوان نتیجه‌ی نهایی در نظر گرفته می‌شود. این روش برای افزایش 
+
+دقت در کارهای استدلال چندمرحله‌ای، به‌ویژه مسائل حسابی، استدلال نمادین (سمبلیک) و مسائل منطقی ساختاریافته بسیار مفید است برخلاف پرامت‌نویسی زنجیره‌ای 
+
+محاسبات را به اجرای کد رسمی واگذار می‌کند و در نتیجه خطاهای استدلالی را کاهش می‌دهد. این روش  PAL که بر استدلال به زبان طبیعی تکیه دارد Chain of Thought
+
+انجام محاسبات را به سیستم‌های خارجی (مانند ماشین‌حساب یا مفسر کد) تفویض LLM شباهت زیادی به رویکردهای استفاده از ابزار دارد، جایی که مدل‌های زبانی بزرگ 
+
+می‌کنند
+
+=======================================================================================================================================================
+
+مزایا:
+
+افزایش دقت در کارهای حسابی و الگوریتمی
+
+کاهش توهمات استدلالی با استفاده از اجرای واقعی کد
+
+(آرایه‌ها، JSON، لاگ‌ها) عملکرد خوب با داده‌های ساختاریافته 
+
+سازگاری طبیعی با گردش‌کار توسعه‌دهندگان
+
+=======================================================================================================================================================
+
+محدودیت‌ها:
+
+نیاز به محیط اجرایی امن و در دسترس دارد
+
+برای کارهای غیربرنامه‌نویسی (مثلاً نگارش آزاد متن) مناسب نیست
+
+به تولید کد صحیح وابسته است (خطاهای نحوی همچنان ممکن است رخ دهند)
+
+در صورت اجرای کدهای نامعتبر، خطرات امنیتی وجود دارد
+
+به دلیل سربار اجرا، همیشه سریع‌تر از روش‌های دیگر نیست
+
+=======================================================================================================================================================
+
+از مدل می‌خواهد فقط کد قابل‌ اجرای پایتون تولید کند تا یک مسئله‌ی ریاضی/الگوریتمی را حل نماید (بدون توضیح اضافی)
 
 Write a Python program to solve this problem:
 
@@ -6,3 +82,6 @@ Generate Fibonacci numbers up to N = 50.
 Return a list of only even Fibonacci numbers.
 
 Return ONLY executable Python code.
+
+=======================================================================================================================================================
+=======================================================================================================================================================

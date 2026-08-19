@@ -1,4 +1,29 @@
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+a prompting approach where the user adds directional cues (signals) to guide the models focus reasoning path or output structure
+It works by embedding constraints pirorities or attention hints such as focus on edge cases optimize for readablity or explain step-by-step
+the goal is to steer mdel behavior without fully scripting the answer improving relevance and control the term directional simulus prompting is not a formating standardize category in
+major documention it is best understood as a descriptive subset of prompt engineering technique aligned with general guidance strategies in prompt design
+
+advantage
+improves relevance by guiding model attention reduces unnecessary or over-complex soluations helps control output style ( concise safe incremental ) .
+works well without needing example data useful for debugging and code review workflows
+
+Limitations
+can still be ambiguous if directions are vague may bias model away from better alternetaive soluations requires user skill in writing effective constraints not
+guaranteed to improve correctness not guarantedd improve correctness can increase prompt length and token usage 
+
+Common Use cases
+code review assistance ( focus on bugs style or edage cases)
+debugging support with constraints fixes
+learning  scenarios (step by step reasoning guidance )
+refactoring guidance with restritions ai assisted documention or explanation generation
+
+=======================================================================================================================================================
+
 تمرکز مدل را روی جنبه‌ی خاصی معطوف می‌کند (مثلاً بررسی موارد مرزی و خطاهای احتمالی) و از تغییرات کلی پرهیز می‌کند
+
 You are a senior JavaScript engineer.
 
 Review the following function and:
@@ -11,3 +36,6 @@ Function:
 function getFirst(arr) {
   return arr[0];
 }
+
+=======================================================================================================================================================
+=======================================================================================================================================================
