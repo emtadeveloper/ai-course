@@ -1,3 +1,25 @@
+
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+
+Gonerated Knowlodge Prompting  
+
+Generated Knowledge Prompting asks the Al to generate relevant background  knowlodgo beforo solving the main task  it oxists bocauso languago models sometimes contain usoful knowlodgo intornally but  do not automatically activate it uring a direct answer  
+The technique typically follows a two-stage pattern  I, Gonorate facts or context  2 Use thoso facts to answer the original question
+
+Advantages  
+Improves access to relevant internal knowledge  Often produces richer and more justified answers  Requires no external infrastructure  Useful for educational explanations and code reviews  Can improve performance on knowledge-intensive  reasoning tasks.
+
+Limitations  
+Cannot retrieve information beyond the model's training data  May amplify hallucinations if generated knowledge is  incorrect.  Increases latency due to extra generation steps  Consumes more tokens than direct prompting  Does not guarantee factual accuracy
+
+Common Use Cases  
+Code reviews requiring best-practice recall.  Architecture discussions  Security checklist generation  Performance optimization analysis  Technical interview preparation  Explaining unfamiliar frameworks or concepts
+
+=======================================================================================================================================================
+=======================================================================================================================================================
+
 ابتدا از مدل می‌خواهیم دانش مرتبط با موضوع را تولید کند، سپس با استفاده از آن دانش، کد موجود را بررسی و بهبود دهد
 
 You are helping optimize a Node.js REST API.

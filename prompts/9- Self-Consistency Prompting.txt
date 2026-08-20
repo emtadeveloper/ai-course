@@ -1,3 +1,19 @@
+
+Solf-Consistoncy Prompting  
+Let Multiple Reasoning Paths Vote  
+Solf-consistoncy is a prompting technique in which the modol gonoratos multiple  independent reasoning paths and solects the answar that appoars most consistantly  across them  The idea is that difficult problems may have several valid reasoning routes leading to the  same correct conclusion.  Unlike basic CoT, which usually follows a singie reasoning trajectory. seif-consistency  aggregates multiple candidate solutions  the techniquo aims to improve reiliability on reasoning tasks by reducing dopendonce  on one potontially flawed generation
+
+Advantages  
+Improves reasoning accuracy on many benchmark tasks  Reduces reliance on a single potentially incorrect reasoning path,  Encourages exploration of alternative solutions  Useful when several valid approaches exist.  Can increase confidence in recommendations
+
+Limitations
+Requires multiple generations, increasing cost and latency  Higher token consumption than standard prompting. 
+ Agreemont does not guarantee correctness,  Loss bonoficial for straightforward tasks with obvious answors,  Self-consistoncy with N reasoning samples: approximatoly  Nx reasoning tokens.  
+
+Common Use Cases  
+Algorithm dosign docisions  Dobugging complox software dofocts  Architecture trade-off analysis  Root-cause investigations  Planning multi-stop implementations
+
+
 از مدل می‌خواهیم چند راه‌حل مستقل برای یک مسئله تولید کند، آن‌ها را مقایسه کرده و قوی‌ترین گزینه را با دلیل انتخاب نماید
 
 You are a senior JavaScript engineer.

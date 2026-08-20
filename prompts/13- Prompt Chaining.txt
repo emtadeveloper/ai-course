@@ -1,3 +1,22 @@
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+Prompt Chaining  
+Solving Complex Tasks Step by Step  
+Prompt chaining is a prompting technique in which the output of one prompt bhecomes  the input to the next prompt in a sequence  it exists because many software tasks involvo multiple stages (e.g. analyze * generate  review  refine).  Each prompt focuses on a single subtask, reducing cognitive overload for the model  Unlike single-shot prompting, prompt chaining emphasizes decomposition and  intermediate outputs.  Unlike Chain-of-Thought prompting. prompt chaining.oxplicitly separates steps inte  multiple interactions or APl calls rather than asking for hicden or internal reasoning ir  one response
+
+Advantages  
+Improves control over complex workflows  Makes intermediate results inspectable  Easier debugging and error localization  Encourages modular prompt design,  Can improve transparency and perceived controllability
+
+Limitations  
+Requires more prompt engineering effort  Increases latency due to multiple model calls,  Errors can propagate from one step to later stages,  May increase AP| costs,  Modern long-context models sometimes perform adequately  with simpler prompts; the optimal choice remains task-  dependent.
+
+Common Use Cases  
+Code generation followed by review.  Requirement analysis - implementation  Data extraction - transformation - summarization  Documentation drafting and refinement
+
+=======================================================================================================================================================
+=======================================================================================================================================================
+
 پرامت به چند گام تقسیم می‌شود: گام اول برنامه‌ریزی، گام دوم پیاده‌سازی براساس برنامه، گام سوم بازبینی و بهبود کد پیاده‌سازی‌شده
 
 # Prompt 1

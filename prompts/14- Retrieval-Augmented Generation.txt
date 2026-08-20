@@ -1,3 +1,23 @@
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+Retrieval- Augmented Generation  
+RAG is a technique that retrieves relevant external information and injects it into the  prompt boforo tho Al generatos an answer.  it exists because LLMs have limited context windows and fixed training knowlodge  RAG allows models to use private, domain-specific, or up-to-date information without  retraining  Unlike standard prompting. RAG supplements prompts with retrieved evidence from  documonts, databases, or knowledge bases
+
+Advantages  
+Reduces reliance on outdated training knowledge.  Enables use of proprietary or private documents.  
+Can improve factual grounding and reduce hallucinations  Knowledge bases can be updated without retraining 
+Often cheaper and faster than fine-tuning for changing content
+
+Limitations  
+Retrieval quality strongly affects answer quality.  Irrelevant retrieved chunks can confuse the model.  Does not completely eliminate hallucinations.  Requires additional infrastructure (retrievers, embeddings.  vector stores).  Chunking and ranking strategies require tuning
+
+Common Use Cases  
+Internal developer assistants  Customer support systems,  Enterprise search  Compliance and policy lookup
+
+=======================================================================================================================================================
+=======================================================================================================================================================
+
 تنها بر اساس بخش‌های مشخصی از مستندات پاسخ می‌دهد و اگر اطلاعات کافی نباشد، صراحتاً می‌گوید مستندات مشخص نکرده است
 
 You are a senior JavaScript developer.
@@ -16,3 +36,6 @@ Question:
 Show a JavaScript example that creates a payment for 100 EUR.
 Explain error handling.
 If the answer is not supported by the context, say "The documentation does not specify."
+
+=======================================================================================================================================================
+=======================================================================================================================================================

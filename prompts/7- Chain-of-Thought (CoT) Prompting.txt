@@ -1,3 +1,16 @@
+
+Chain-of-Thought (CoT) prompting is a techniqua where the modol is ncouraged to  break down a problem into intermodiate reasoning steps before producing fina  
+answer.  
+it exists to improve performance an tasks requiring multi-step reasoning, such as  arithmetic, logic, and code reasoning  instead of jumping directly to an answer, the model is guided to "show its work' in o  structured reasoning path  t- differs from direct prompting because it emphasizes intermediate reasoning steps  rather than only the final output.  It may be implicit (zero-shot) or explicit (fow-shot).
+Advantages  
+Improves reasoning accuracy on multi-step problems  Helps debug code more systematically  Makes model reasoning more interpretable  Works well for math, logic, and algorithmic tasks  Reduces shallow or overly confident answers
+
+Limitations  
+Increases token usage and cost due to longer outputs  Can produce plausible but incorrect reasoning steps  Not always necessary for simple tasks  May introduce verbosity in production systems  Reasoning is not guaranteed to reflect true internal model  process
+
+Common Use Cases  
+Debugging code  Algorithm explanation  Data transformation logic design  Complex API integration reasoning  Technical decision-making support
+
 از مدل می‌خواهد قدم‌به‌قدم فرایند فکری خود را بیان کند، موارد مرزی را بررسی و سپس جواب نهایی را اصلاح کند
 
 You are a JavaScript expert.
