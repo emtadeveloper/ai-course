@@ -38,6 +38,8 @@ The function should return the sum of all item prices in the array.
 * Point out the exact line causing the issue
 * Provide a corrected version of the code
 * Suggest a best-practice improvement
+* Suggest a best-practice improvement
+* Explain all notes in persion
 
 [OUTPUT FORMAT]
 
