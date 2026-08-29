@@ -1,5 +1,17 @@
 پرامتی برای تولید پرامت دیگر؛ مثلاً از مدل بخواهید پرامتی طراحی کند که یک دستیار کدنویسی را برای بهینه‌سازی اسکریپت راهنمایی کند
 
+Using Al to Design Better Prompts  
+Meta prompting is the practice of asking an Al system to generate, improve, analyze. or  structure prompts for another Al task, instead of solving the task directly  it exists because many usors know thoir goal but struggie to write effective prompts  themselves.  The modol acts as a "prompt engineer", holping croato instructions that are clearer and  more reusable,  Unlike direct prompting. meta prompting introduces an intermecigte step: Goal  Prompt Design - Task Execution  Meta prompting differs from few-shot prompting becciuse its primary output is a prompt  (or prompt templato), not the final task rosult
+
+Advantages  
+Produces more structured and explicit prompts.  Reduces manual trial-and-error in prompt writing.  Creates reusable prompt templates for teams.  Helps beginners apply prompt-engineering bềst practices  improves consistency across similar development tasks,
+
+Limitations  
+Requires an additional prompting step.  Increases latency and total token usage.  Generated prompts may still require human review.  Quality depends on the capability of the underlying model.  There is no universal agreement that meta prompting always  outperforms simpler prompting for straightforward tasks.
+
+Common Use Cases  
+Building prompt libraries for development teams.  Creating coding-review templates,.  Designing prompts for code generation  Generating prompts for documentation tasksk  Standardizing prompts in Al-powered workflows and agents,
+
 Act as a senior AI prompt engineer.
 
 Create a prompt for an AI coding assistant to review and optimize a Python script that processes CSV files.

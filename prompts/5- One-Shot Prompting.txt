@@ -1,5 +1,27 @@
 ارائه یک مثال ورودی‑خروجی و سپس درخواست پردازش نمونه‌ی جدید؛ مدل با یک نمونه راهنمایی می‌شود
 
+One-Shot Prompting  
+Milad Azami  Al Cocmne  
+Single-Example Prompting  
+One-shot prompting is a technique where the model is given one example input-output  pair to guide its response format and behavior.  it is a special case of few-shot prompting. where on ly a single demonstratign is provided  to shape the modeľ's output pattern  It exists because large language models can perform in-context learning, meaning they  adapt bohavior based on oxamples in tho prompt without retraining  it helps reduce ambiguity compared to zero-shot prompting, while using fewer tokens  than multi-example few-shot prompting
+
+Advantages  
+Reduces ambiguity compared to zero-shot prompting  Jses fewer tokens than multi-example few-shot prompting  Helps enforce output structure (e.g, JSON, logs, schemas)  Easy to design and maintain prompts  Works well with in-context learning behavior
+
+
+
+Limitations  
+May not generalize well if the single example is misleading  Sensitive to poorly chosen example (bias risk)  Less robust than multi-example few-shot prompting  Can still produce inconsistent outputs for complex tasks  Requires careful prompt design to avoid ambiguity
+PTopOu  
+One-Shot Prompting
+
+
+Common Use Cases  
+Data extraction (logs, text -+ JSON),  Code formatting or transformation tasks  
+Simple classification tasks  
+API response shaping  Lightweight automation scripts
+
+
 Extract error type and severity.
 
 Example:

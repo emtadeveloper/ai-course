@@ -1,3 +1,19 @@
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+iterative Prompting  
+Improving Al Outputs Through Successive Rofinemont  
+Iterative prompting is a technique where developers improve Al outputs through  multiplo prompt-response cycles rather than oxpecting the first answor to bo final,  the initial response is treated as a draft which is reviewed and refined using follow-up  prompts.  It exists bocause complex software tasks often require clarification, correction  additional constraints, and progressive improvement  Unliko one-shot prompting, iterative prompting uses feedback from previous outputs to  guide later prompts  The procoss typically folows a loop: Prompt - Evaluate - Refine - Repeat
+
+Advantages  
+Improves output quality through feedback and correction  Helps clarify ambiguous requirements.  Supports complex software engineering tasks  Allows incremental validation before major changes.  Encourages human oversight and critical evaluation.
+
+
+Limitations  
+Requires more time.  Increases token usage and operational cost.  Earlier misunderstandings may propagate into later steps  Long conversations may accumulate unnecessary context.  Quality still depends on the developer's ability to evaluate   outputs 
+=======================================================================================================================================================
+=======================================================================================================================================================
+
 علاوه بر خواسته‌ها، به‌صراحت بیان می‌کند که چه کارهایی نباید انجام شود (مثلاً استفاده از کتابخانه‌های غیراستاندارد، نادیده‌گرفتن استثناها)
 
 Write a Python function that calculates total monthly sales from a CSV file.

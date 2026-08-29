@@ -1,4 +1,38 @@
-درخواست انجام کاری بدون ارائه مثال؛ مدل باید از دانش خود استفاده کند 
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+Advantages
+Fast and easy to write.
+Requires no curated examples.
+Useful for rapid experimentation.
+Reduces prompt length and maintenance effort.
+Effective for many common programming tasks.
+Zero-shot reduces input tokens
+
+Common Use Cases
+Code explanation.
+Refactoring suggestions.
+Test generation.
+Documentation drafting.
+Simple code transformations.
+Initial brainstorming and prototyping
+
+botostart ar
+Zero-Shot Prompting
+Milad Azami
+Al Codingy Mantor
+Limitations
+May produce inconsistent output formats.
+Less reliable for complex reasoning tasks.
+Can misunderstand ambiguous instructions.
+Sensitive to unclear requirements.
+Often outperformed by few-shot prompting when precise
+style control is needed.
+
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+درخواست انجام کاری بدون ارائه مثال؛ مدل باید از دانش خود استفاده کند
 
 Refactor the following JavaScript function to use async/await.
 Requirements:
@@ -7,3 +41,6 @@ Requirements:
 - Add brief comments explaining the changes.
 - Return only the updated code.
 [paste existing callback-based function herel
+
+=======================================================================================================================================================
+=======================================================================================================================================================

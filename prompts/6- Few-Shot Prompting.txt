@@ -1,5 +1,20 @@
 چند مثال متنوع برای نشان دادن الگو ارائه می‌دهد، سپس از مدل می‌خواهد نمونه‌ی جدید را مشابه آن‌ها دسته‌بندی کند
 
+Example-Based Prompting  
+Few-shot prompting is a technique where the model is given multiple input-output  examples in the prompt to guido its bohavior.  It is based on the idoa of in-context learning, whoro languago modols learn patterns from  examples without retraining.  it helps the model infer format, logic, and transformation rules more reliably than zero-  shot or one- shot prompting  it is widely used in prompt engineering when output correctness and consistency are  more important than token cost.
+fartir  
+
+Advantages  
+Higher accuracy than zero-shot and one-shot prompting  Better consistency in structured outputs  Reduces ambiguity in complex transformations  Helps define edge cases through examples  Improves model reliability for classification tasks
+
+Few-Shot Prompting  
+
+Limitations  Higher token cost due to multiple examples  Prompt design becomes more complex  Risk of overfitting to examples in prompt  Can still fail if examples are incomplete or biased  Slower responses due to longer prompts  highest prompt cost among basic prompting styles
+
+Common Use Cases  
+Data extraction and structured formatting  Text classification (tickets, logs, sentiment)  Code transformation tasks  API response shaping  Business automation workflows
+
+
 Classify support tickets into JSON format.
 
 Example 1:
